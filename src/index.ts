@@ -14,9 +14,10 @@ const PORT = process.env.PORT || 5000;
 // CORS configuration
 const corsOptions = {
   origin: [
+    '*',
     'http://localhost:3000',
     'http://localhost:5173',
-    'https://assesium-landing-webpage-v1-0-0-henna.vercel.app',
+    'https://assesium-working-landing-webpage-v1.vercel.app/',
     'https://assesium.vercel.app',
     process.env.FRONTEND_URL,
     process.env.DEPLOYED_FRONTEND_URL,
